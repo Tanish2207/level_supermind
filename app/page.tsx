@@ -155,7 +155,9 @@ export default function Home() {
               size="lg"
               className="bg-blue-600 hover:bg-blue-700 transition-colors"
             >
-              Try for Free
+              <Link href="/rag">
+              Try the RAG agent
+              </Link>
             </Button>
             <Button size="lg" variant="outline">
               Request Demo
